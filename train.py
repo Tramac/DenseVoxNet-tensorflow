@@ -18,7 +18,7 @@ parser.add_argument("--iteration", "-i", default=15000, type=int, help="number o
 parser.add_argument("--dispaly_step", "-s", default=1000, type=int, help="number of steps to display, default=1000")
 parser.add_argument("--input_file", "-f", default="train.txt", type=str, help="file of training dataset")
 parser.add_argument("--random_crop", default=True, type=bool, help="random crop to images")
-parser.add_argument("--batch_size", default=1, type=int, help="batch size, default=3")
+parser.add_argument("--batch_size", default=8, type=int, help="batch size, default=3")
 parser.add_argument("--input_size", default=64, type=int, help="shape of input for the network, default=64")
 parser.add_argument("--learning_rate", "-r", default=0.05, type=float, help="learning rate, default=0.05")
 parser.add_argument("--logs_dir", default="logs/", type=str, help="location of trained model")
